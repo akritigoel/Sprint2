@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: org.com.onlinetest.OnlineTestManagementTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 8.403 s <<< FAILURE! - in org.com.onlinetest.OnlineTestManagementTest
+addQuestion  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
+getAllQuestion  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
+addTest  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
+updateTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
+updateQuestion  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
+getAllTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
+getTestById  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
+deleteQuestion  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
+getQuestionById  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
+deleteTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+

@@ -1,0 +1,19 @@
+table{
+    margin-left: 100px;
+    background-color: antiquewhite;
+    width: 500px; 
+    border-width: 8px;
+       margin-top: 60px;
+       border-style: dashed;
+       position: center;margin-bottom: 200px;
+     
+ }
+
+ button{
+    margin-left: 10px;
+    background-color: darkslategray;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+  }

@@ -1,0 +1,14 @@
+<p>
+  test works!
+</p>
+
+<form [formGroup]="viewForm">
+
+
+  <div class="form-group">
+    <label for="studentid"><b>Enter your Student ID</b></label>
+    <input class="form-control" formControlName="studentid" type="text" placeholder="Enter id" id = "studentid"  required [(ngModel)]="studentid">
+</div>
+  <button (click)="getInputValue()">Submit</button>
+
+</form>

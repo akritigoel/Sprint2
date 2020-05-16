@@ -1,0 +1,14 @@
+header{
+    width: 100%;
+}
+li {
+  
+    font-size: 25px;
+}
+li a{
+    color: rgb(3, 3, 3);
+}
+
+.nav2 li {
+    margin-right: 10px;
+}
