@@ -17,7 +17,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootTest
 public class OnlineTestManagementTest {
 
-	/*
+	
 	  static Logger logger=LoggerFactory.getLogger(OnlineTestManagementTest.class);
 	 
 	
@@ -29,6 +29,27 @@ public class OnlineTestManagementTest {
 		template=new RestTemplate();		
 	}
 	
+	@Test
+	public void addStudent() {
+		Student student= new Student();
+		student.setStudentName("Raman Jha");
+		student.setStudentPassword("Jha*87");
+		//student.setTestId(BigInteger.valueOf(1002));
+		
+		try {
+			ResponseEntity<Student> postForEntity=template.postForEntity("http://uplc:7070/Student/addStudent",
+					student, Student.class);
+			Assertions.assertNotNull(postForEntity);
+			
+			logger.info("add student works "+postForEntity.getStatusCodeValue());
+			
+		}
+		catch(HttpClientErrorException e) {
+			Assertions.fail(e.getMessage());
+		}
+	}
+	
+	/*
 	@Test
 	public void addTest()
 	{
